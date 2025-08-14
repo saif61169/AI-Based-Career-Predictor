@@ -9,8 +9,7 @@ An AI-powered career guidance tool that predicts the top 3 most suitable job rol
 - Provides a 1-line explanation for each prediction
 
 ## Installation
-
+- Add your authentication key from HuggingFace in the code to access the Gemma LLM before running the code.
 ```bash
-git clone https://github.com/yourusername/CDAC_Project.git
-cd CDAC_Project
 pip install -r requirements.txt
+streamlit run app.py
