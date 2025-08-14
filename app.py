@@ -8,10 +8,10 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 
 st.set_page_config(page_title="AI Career Predictor", layout="centered")
-st.title("🔮 AI Career Predictor")
+st.title("AI Career Predictor")
 st.markdown("Upload your resume to get the top 3 most suitable job roles predicted by an AI model.")
 
-uploaded_file = st.file_uploader("📄 Upload Resume (.pdf, .docx, .txt)", type=["pdf", "docx", "txt"])
+uploaded_file = st.file_uploader("Upload Resume (.pdf, .docx, .txt)", type=["pdf", "docx", "txt"])
 
 def extract_text_from_resume(file_bytes, filename):
     if filename.endswith(".pdf"):
@@ -71,3 +71,4 @@ Prediction: """
             st.success("Prediction complete!")
             st.markdown("### Top 3 Predicted Job Roles:")
             st.markdown(prediction)
+
