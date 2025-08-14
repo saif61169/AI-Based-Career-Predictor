@@ -1,4 +1,4 @@
-# AI BasedCareer Predictor
+# AI Based Career Predictor
 
 An AI-powered career guidance tool that predicts the top 3 most suitable job roles for a candidate based on their resume.
 
@@ -9,7 +9,8 @@ An AI-powered career guidance tool that predicts the top 3 most suitable job rol
 - Provides a 1-line explanation for each prediction
 
 ## Installation
-- Add your authentication key from HuggingFace in the code to access the Gemma LLM before running the code.
+- Add your authentication key from HuggingFace in the code to access the LLM before running the code.
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
