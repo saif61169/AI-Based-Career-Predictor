@@ -1,0 +1,7 @@
+streamlit
+pyngrok
+PyPDF2
+docx2txt
+transformers
+langchain
+langchain-community
